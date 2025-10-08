@@ -1,0 +1,43 @@
+{
+  "name": "tic-tac-toe",
+  "version": "0.0.1",
+  "type": "module",
+  "homepage": "https://github.com/HappyPeppyPuppy/react-games#readme",
+  "bugs": {
+    "url": "https://github.com/HappyPeppyPuppy/react-games/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HappyPeppyPuppy/react-games.git"
+  },
+  "license": "ISC",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rslib build",
+    "check": "biome check --write",
+    "dev": "rslib build --watch",
+    "format": "biome format --write"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.3",
+    "@rsbuild/plugin-react": "^1.4.1",
+    "@rslib/core": "^0.15.0",
+    "@types/react": "^19.1.15",
+    "react": "^19.1.1",
+    "typescript": "^5.9.2"
+  },
+  "peerDependencies": {
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
+  },
+  "private": true
+}
