@@ -141,10 +141,10 @@ import type { MinesweeperProps } from '@react-games/minesweeper';
 git clone https://github.com/yourname/react-games.git
 
 # install dependencies
-pnpm install
+npm install
 
 # start dev server (example)
-pnpm dev --filter @react-games/minesweeper
+npm dev --filter @react-games/minesweeper
 ```
 
 ---

@@ -1,0 +1,22 @@
+{
+  "name": "react-games",
+  "version": "0.0.1",
+  "description": "",
+  "homepage": "https://github.com/HappyPeppyPuppy/react-games#readme",
+  "bugs": {
+    "url": "https://github.com/HappyPeppyPuppy/react-games/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HappyPeppyPuppy/react-games.git"
+  },
+  "license": "ISC",
+  "scripts": {
+    "build": "npm run build --workspaces --if-present"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/**/*"
+    ]
+  }
+}
